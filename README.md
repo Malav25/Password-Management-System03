@@ -62,3 +62,25 @@ CREATE TABLE password (
     website_name VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
+```
+### 🗄️ Database Setup
+
+1.Clone the repository
+```bash
+git clone https://github.com/your-username/your-project-name.git
+cd your-project-name
+```
+2.Update Database Credentials
+Open Main.java and modify:
+```java
+String dburl = "jdbc:mysql://localhost:3306/lju";
+String dbuser = "root";
+String dpass = ""; // Your MySQL password
+```
+3.Compile and Run
+```bash
+javac Main.java PasswordManagerConsole.java
+java Main
+```
+
+
