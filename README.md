@@ -65,22 +65,37 @@ CREATE TABLE password (
 ```
 ### 🗄️ Database Setup
 
-1.Clone the repository
+-**1.Clone the repository
 ```bash
 git clone https://github.com/your-username/your-project-name.git
 cd your-project-name
 ```
-2.Update Database Credentials
+-**2.Update Database Credentials
 Open Main.java and modify:
 ```java
 String dburl = "jdbc:mysql://localhost:3306/lju";
 String dbuser = "root";
 String dpass = ""; // Your MySQL password
 ```
-3.Compile and Run
+-**3.Compile and Run
 ```bash
 javac Main.java PasswordManagerConsole.java
 java Main
 ```
 
+### 📂 Codebase Analysis
 
+-**Main.java
+-Entry point of the application. Handles user authentication, database connection, and provides a menu-driven interface. Uses a HashMap for temporary encrypted-to-original password mapping.
+
+-**PasswordManagerConsole.java
+-Core functionality: add, delete, update, and search for passwords. Implements password strength checker, OTP generation, and encryption/decryption logic.
+
+-**PasswordManagerCLI.java
+-An alternative implementation with user registration, login, and password management via MySQL.
+
+-**PM.java
+-Generates random passwords and saves them to a file.
+
+-**App.java
+-A basic "Hello, World!" file, not integrated into the main logic.
