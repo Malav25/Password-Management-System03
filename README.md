@@ -99,3 +99,21 @@ java Main
 
 - **App.java**
 - A basic "Hello, World!" file, not integrated into the main logic.
+
+
+### 💡 Potential Improvements
+
+- **🔐 Stronger Encryption**
+- Replace simple character-symbol mapping with algorithms like BCrypt or Argon2.
+
+- **👥 User Management**
+- Store user information securely in the database instead of simple arrays.
+- 
+- **⚠️ Robust Error Handling**
+- Add comprehensive try-catch blocks and input validation for better resilience.
+- 
+- **🖥️ GUI Support**
+- Enhance user experience by transitioning from CLI to a Graphical User Interface.
+
+- **🛠️ Code Consolidation**
+- Merge redundant files (Main.java, PasswordManagerCLI.java, PM.java, App.java) into a single, cohesive application.
