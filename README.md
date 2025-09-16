@@ -82,6 +82,7 @@ String dpass = ""; // Your MySQL password
 javac Main.java PasswordManagerConsole.java
 java Main
 ```
+---
 
 ### 📂 Codebase Analysis
 
@@ -100,6 +101,7 @@ java Main
  **App.java**
 - A basic "Hello, World!" file, not integrated into the main logic.
 
+---
 
 ### 💡 Potential Improvements
 
