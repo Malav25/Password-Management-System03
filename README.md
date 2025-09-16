@@ -85,35 +85,35 @@ java Main
 
 ### 📂 Codebase Analysis
 
-- **Main.java**
+ **Main.java**
 - Entry point of the application. Handles user authentication, database connection, and provides a menu-driven interface. Uses a HashMap for temporary encrypted-to-original password mapping.
 
-- **PasswordManagerConsole.java**
+ **PasswordManagerConsole.java**
 - Core functionality: add, delete, update, and search for passwords. Implements password strength checker, OTP generation, and encryption/decryption logic.
 
-- **PasswordManagerCLI.java**
+ **PasswordManagerCLI.java**
 - An alternative implementation with user registration, login, and password management via MySQL.
 
-- **PM.java**
+ **PM.java**
 - Generates random passwords and saves them to a file.
 
-- **App.java**
+ **App.java**
 - A basic "Hello, World!" file, not integrated into the main logic.
 
 
 ### 💡 Potential Improvements
 
-- **🔐 Stronger Encryption**
+ **🔐 Stronger Encryption**
 - Replace simple character-symbol mapping with algorithms like BCrypt or Argon2.
 
-- **👥 User Management**
+  **👥 User Management**
 - Store user information securely in the database instead of simple arrays.
-- 
-- **⚠️ Robust Error Handling**
+  
+ **⚠️ Robust Error Handling**
 - Add comprehensive try-catch blocks and input validation for better resilience.
-- 
-- **🖥️ GUI Support**
+ 
+  **🖥️ GUI Support**
 - Enhance user experience by transitioning from CLI to a Graphical User Interface.
 
-- **🛠️ Code Consolidation**
+  **🛠️ Code Consolidation**
 - Merge redundant files (Main.java, PasswordManagerCLI.java, PM.java, App.java) into a single, cohesive application.
